@@ -1,0 +1,16 @@
+.btn-primary{
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 27px;
+    text-align: center;
+    color: black;
+    border-radius: 20px;
+    background-color: #F8D137;
+    padding: 10px 20px;
+    width: 350px;
+    margin: 30px auto;
+    display: block;
+    cursor: pointer;
+}

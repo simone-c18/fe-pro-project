@@ -1,5 +1,6 @@
 import React from 'react'
 import './Landing.css'
+import NavigateButton from '../components/Button'
 
 
 const Landing = () => {
@@ -14,8 +15,8 @@ const Landing = () => {
       </div>
 
       <div className="buttons">
-        <p>Get Started</p>
-        <p>I have an account</p>
+        <NavigateButton to="/get-started" text="Get Started" className="btn-primary"/>
+        <NavigateButton to="/login" text="I have an account" className="btn-primary"/>
       </div>
 
       <div className="made-by-sim">
