@@ -6,7 +6,7 @@ const Landing = () => {
   return (
     <div>
       <div className="title">
-        <h1>FEPro</h1>
+        <h1>FE<span class="logo-color">Pro</span></h1>
       </div>
 
       <div className="subtitle">
