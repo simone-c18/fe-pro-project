@@ -15,7 +15,7 @@ const Landing = () => {
       </div>
 
       <div className="buttons">
-        <NavigateButton to="/get-started" text="Get Started" className="btn-primary"/>
+        <NavigateButton to="/register" text="Get Started" className="btn-primary"/>
         <NavigateButton to="/login" text="I have an account" className="btn-primary"/>
       </div>
 
