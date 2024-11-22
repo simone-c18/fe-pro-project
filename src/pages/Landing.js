@@ -1,10 +1,15 @@
 import React from 'react'
+import './Landing.css'
+
 
 const Landing = () => {
   return (
     <div>
       <div className="title">
         <h1>FEPro</h1>
+      </div>
+
+      <div className="subtitle">
         <p>Your study tool to pass the UCF Foundation Exam!</p>
       </div>
 
