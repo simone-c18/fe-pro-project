@@ -16,4 +16,4 @@ function NavigateButton({to, text, className}) {
   );
 }
 
-export default NavigateButton
+export default NavigateButton;
