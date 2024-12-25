@@ -14,11 +14,11 @@ const ForgotPass = () => {
         <p>No worries, we'll send you reset intructions.</p>
     </div>
 
-    <div className="email-input">
-    <input className="email-input"
-            type="email"
-            placeholder="Email"
-        />
+    <div>
+        <input className="email-input"
+                type="email"
+                placeholder="Email"
+            />
     </div>
 
     <div>

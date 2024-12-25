@@ -29,9 +29,8 @@ const Login = () => {
     <div className="container">
 
         <div className="corner button">
-           <button className="corner-button">
-                Sign Up
-            </button> 
+        <NavigateButton to="/register" text="Sign in" className="corner-button"/>
+
 
         </div>
 
