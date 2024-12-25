@@ -141,14 +141,10 @@ body{
     cursor: pointer;
 }
 
-
-
-
 .gray{
     background: white;
     color: grey;
 }
-
 
 .corner-button{
     float: right;

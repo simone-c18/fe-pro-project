@@ -1,0 +1,48 @@
+.title{
+    color: #F8D137;
+}
+
+.subtitle{
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    text-align: center;
+    color: white;
+}
+
+.email-input{
+   text-align: center;
+   
+
+}
+
+
+.submit-button{
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19px;
+    text-align: center;
+    color: black;
+    border-radius: 20px;
+    background-color: #F8D137;
+    padding: 10px 20px;
+    width: 350px;
+    margin: 30px auto;
+    display: block;
+    cursor: pointer;
+}
+
+.back-to-login-button{
+    background: none;
+    border: none;
+    color: #F8D137;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0;
+    text-align: center;
+}

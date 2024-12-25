@@ -5,6 +5,8 @@ import password_icon from '../components/assets/password.png';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../firebase/firebase';
 import { useNavigate } from 'react-router-dom';
+import NavigateButton from '../components/Button'
+
 
 const Login = () => {
   const navigate = useNavigate();
@@ -60,9 +62,7 @@ const Login = () => {
       </div>
 
       <div>
-        <button className="forgot-password">
-            Forgot password?
-        </button>
+        <NavigateButton to="/forgot-password" text="Forgot Password?" className="forgot-password"/>
       </div>
 
       <div className="submit-container">
